@@ -19,7 +19,7 @@ namespace TestClassLibraryTests
         }
 
         [TestMethod]
-        public void GetTrue_DoesNotReturnsFalse()
+        public void GetTrue_DoesNotReturnFalse()
         {
             // Arrange
             var trueProvider = new TrueProvider();
